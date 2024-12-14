@@ -1,0 +1,28 @@
+{
+  "name": "mult-cli",
+  "version": "1.1.4",
+  "description": "CLI pour installer et configurer le framework backend TypeScript",
+  "keywords": [
+    "framework",
+    "typescript",
+    "node",
+    "express"
+  ],
+  "main": "src/index.js",
+  "bin": {
+    "mult": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.1.0",
+    "simple-git": "^3.27.0"
+  },
+  "author": "Hassan PIOU",
+  "license": "MIT"
+}

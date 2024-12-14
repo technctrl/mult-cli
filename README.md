@@ -26,6 +26,15 @@ Mult CLI est conçu pour les développeurs souhaitant intégrer rapidement et ef
 $ npm install -g mult-cli
 ```
 
+## Utilisation
+Pour démarrer un nouveau projet avec Mult-CLI exécuter la commande suivante
+
+```
+$ mult new <nom-du-projet>
+```
+
+Et suivre les étapes pour créer un nouveau projet avec Mult-CLI
+
 ## License
 
 Mult is [MIT licensed](LICENSE).

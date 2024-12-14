@@ -1,6 +1,6 @@
 {
   "name": "mult-cli",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "CLI pour installer et configurer le framework backend TypeScript",
   "keywords": [
     "framework",
@@ -12,6 +12,17 @@
   "bin": {
     "mult": "src/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 16.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technctrl/mult-cli.git"
+  },
+  "homepage": "https://github.com/technctrl/mult-cli#readme",
   "scripts": {
     "start": "node src/index.js"
   },
